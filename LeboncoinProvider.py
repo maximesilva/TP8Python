@@ -16,14 +16,16 @@ class LeboncoinProvider(InterfaceSearchProvider):
             self.search["typeAchat"] = "9"
         
         url = self.entrypoint + self.search["typeAchat"] + "&locations=" + self.search["codePostal"] + "&price=" + self.search["budgetMin"] + "-" + self.search["budgetMax"]
+        print(url)
         result = requests.get(url)
         bs = BeautifulSoup(result.content, 'html.parser')
-
+        print(bs)
         allAnnonces = bs.find_all('a', {'data-qa-id': 'aditem_container'})
         
         resultSearch = {}
         resultSearch["lbc"] = []
-
+        print(allAnnonces)
+        
         for annonce in allAnnonces:
             annonce = str(annonce)
             parsed = parse('{}href="{}>{}', annonce)

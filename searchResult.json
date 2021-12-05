@@ -1,1 +1,294 @@
-{"century21": [{"ville": "VALENCE", "cp": "26", "superficie": "49 m", "nbpieces": "3", "reference": "7601", "typebien": "Maison", "prix": "190 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "52,24 m", "nbpieces": "3", "reference": "7290", "typebien": "Appartement T3", "prix": "115 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "72,39 m", "nbpieces": "4", "reference": "7296", "typebien": "Appartement F4", "prix": "166 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "75,10 m", "nbpieces": "3", "reference": "7532", "typebien": "Maison", "prix": "220 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "64,90 m", "nbpieces": "3", "reference": "7151", "typebien": "Appartement T3", "prix": "54 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "81 m", "nbpieces": "4", "reference": "6894", "typebien": "Appartement F3", "prix": "161 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "67,35 m", "nbpieces": "3", "reference": "7522", "typebien": "Appartement", "prix": "230 500"}, {"ville": "VALENCE", "cp": "26", "superficie": "110 m", "nbpieces": "5", "reference": "7408", "typebien": "Maison", "prix": "329 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "42,70 m", "nbpieces": "2", "reference": "7488", "typebien": "Appartement", "prix": "129 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "67,35 m", "nbpieces": "3", "reference": "7618", "typebien": "Appartement", "prix": "200 900"}, {"ville": "VALENCE", "cp": "26", "superficie": "68,17 m", "nbpieces": "3", "reference": "7272", "typebien": "Appartement T3", "prix": "69 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "134 m", "nbpieces": "5", "reference": "885", "typebien": "Maison", "prix": "309 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "95,26 m", "nbpieces": "4", "reference": "7407", "typebien": "Appartement F4", "prix": "224 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "60 m", "nbpieces": "3", "reference": "7396", "typebien": "Maison", "prix": "195 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "125 m", "nbpieces": "6", "reference": "7570", "typebien": "Maison", "prix": "380 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "88,09 m", "nbpieces": "4", "reference": "6980", "typebien": "Appartement F5", "prix": "79 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "143 m", "nbpieces": "6", "reference": "6606", "typebien": "Appartement F6", "prix": "209 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "18,15 m", "nbpieces": "1", "reference": "7517", "typebien": "Studio", "prix": "62 900"}, {"ville": "VALENCE", "cp": "26", "superficie": "80 m", "nbpieces": "4", "reference": "7614", "typebien": "Appartement", "prix": "131 000"}, {"ville": "VALENCE", "cp": "26", "superficie": "80 m", "nbpieces": "4", "reference": "7449", "typebien": "Appartement", "prix": "137 000"}], "lbc": [{"lbc": []}]}
+{
+    "century21": [
+        {
+            "reference": "2665838875"
+        },
+        {
+            "reference": "2718469107"
+        },
+        {
+            "reference": "2751136817"
+        },
+        {
+            "reference": "2752704291"
+        },
+        {
+            "reference": "2456381630"
+        },
+        {
+            "reference": "2115349221"
+        },
+        {
+            "reference": "2740798236"
+        },
+        {
+            "reference": "2651536616"
+        },
+        {
+            "reference": "2460048359"
+        },
+        {
+            "reference": "2615259198"
+        },
+        {
+            "reference": "2232204109"
+        },
+        {
+            "reference": "2172460834"
+        },
+        {
+            "reference": "2590243864"
+        },
+        {
+            "reference": "2725519782"
+        },
+        {
+            "reference": "2652669830"
+        },
+        {
+            "reference": "2267943765"
+        },
+        {
+            "reference": "2384204184"
+        },
+        {
+            "reference": "2655773805"
+        },
+        {
+            "reference": "2734927220"
+        },
+        {
+            "reference": "2445199002"
+        },
+        {
+            "reference": "2307510464"
+        },
+        {
+            "reference": "2676890503"
+        },
+        {
+            "reference": "1929773572"
+        },
+        {
+            "reference": "2539025336"
+        },
+        {
+            "reference": "2710076336"
+        },
+        {
+            "reference": "2689305533"
+        },
+        {
+            "reference": "2666635390"
+        },
+        {
+            "reference": "2542118303"
+        },
+        {
+            "reference": "2530443751"
+        },
+        {
+            "reference": "2505006931"
+        }
+    ],
+    "lefigaro": [
+        {
+            "reference": "39202253"
+        },
+        {
+            "reference": "39166047"
+        },
+        {
+            "reference": "39166041"
+        },
+        {
+            "reference": "39038715"
+        },
+        {
+            "reference": "38837687"
+        },
+        {
+            "reference": "38837801"
+        },
+        {
+            "reference": "38358063"
+        },
+        {
+            "reference": "38146047"
+        },
+        {
+            "reference": "39202253"
+        },
+        {
+            "reference": "39202253"
+        },
+        {
+            "reference": "38082601"
+        },
+        {
+            "reference": "37511987"
+        },
+        {
+            "reference": "37856813"
+        },
+        {
+            "reference": "39166047"
+        },
+        {
+            "reference": "39166047"
+        },
+        {
+            "reference": "38477727"
+        },
+        {
+            "reference": "36674843"
+        },
+        {
+            "reference": "35764117"
+        },
+        {
+            "reference": "39166041"
+        },
+        {
+            "reference": "39166041"
+        },
+        {
+            "reference": "38360879"
+        },
+        {
+            "reference": "38335305"
+        },
+        {
+            "reference": "37866301"
+        },
+        {
+            "reference": "39038715"
+        },
+        {
+            "reference": "39038715"
+        },
+        {
+            "reference": "39202253"
+        },
+        {
+            "reference": "23328563"
+        },
+        {
+            "reference": "33479989"
+        },
+        {
+            "reference": "38837687"
+        },
+        {
+            "reference": "38837687"
+        },
+        {
+            "reference": "23390605"
+        },
+        {
+            "reference": "39120217"
+        },
+        {
+            "reference": "38718961"
+        },
+        {
+            "reference": "37426605"
+        },
+        {
+            "reference": "37105025"
+        },
+        {
+            "reference": "39244277"
+        },
+        {
+            "reference": "39236799"
+        },
+        {
+            "reference": "39227187"
+        },
+        {
+            "reference": "39226111"
+        },
+        {
+            "reference": "39226109"
+        },
+        {
+            "reference": "39226107"
+        },
+        {
+            "reference": "39220507"
+        },
+        {
+            "reference": "39178013"
+        },
+        {
+            "reference": "39197141"
+        },
+        {
+            "reference": "39197137"
+        },
+        {
+            "reference": "39197135"
+        },
+        {
+            "reference": "39197133"
+        },
+        {
+            "reference": "39197131"
+        },
+        {
+            "reference": "39193855"
+        },
+        {
+            "reference": "39179115"
+        },
+        {
+            "reference": "39174569"
+        },
+        {
+            "reference": "39172363"
+        },
+        {
+            "reference": "39166049"
+        },
+        {
+            "reference": "39166051"
+        },
+        {
+            "reference": "39178817"
+        },
+        {
+            "reference": "39134153"
+        },
+        {
+            "reference": "39133741"
+        },
+        {
+            "reference": "39178799"
+        },
+        {
+            "reference": "39174503"
+        },
+        {
+            "reference": "39117795"
+        },
+        {
+            "reference": "39107985"
+        },
+        {
+            "reference": "39107099"
+        },
+        {
+            "reference": "39083289"
+        },
+        {
+            "reference": "39038711"
+        },
+        {
+            "reference": "39005145"
+        },
+        {
+            "reference": "39005123"
+        }
+    ]
+}
