@@ -5,17 +5,16 @@ from bs4 import BeautifulSoup
 from parse import *
 
 class LeboncoinProvider(InterfaceSearchProvider):
-    def __init__(self, search):
+    def __init__(self):
 
         super()
-        self.search = search
         self.entrypoint = "https://www.leboncoin.fr/recherche?category="
     
-    def getSearchResult(self):
-        if (self.search["typeAchat"] == "achat"):
-            self.search["typeAchat"] = "9"
+    def getSearchResult(self, search):
+        if (search["typeAchat"] == "achat"):
+            search["typeAchat"] = "9"
         
-        url = self.entrypoint + self.search["typeAchat"] + "&locations=" + self.search["codePostal"] + "&price=" + self.search["budgetMin"] + "-" + self.search["budgetMax"]
+        url = self.entrypoint + search["typeAchat"] + "&locations=" + search["codePostal"] + "&price=" + search["budgetMin"] + "-" + search["budgetMax"]
         print(url)
         result = requests.get(url)
         bs = BeautifulSoup(result.content, 'html.parser')
@@ -34,3 +33,6 @@ class LeboncoinProvider(InterfaceSearchProvider):
 
         print(resultSearch)
         return resultSearch
+    
+    def getFileName(self) -> str:
+        return "lbc"

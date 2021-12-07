@@ -2,6 +2,7 @@ from Century21Provider import *
 from LeboncoinProvider import *
 from LefigaroProvider import *
 from FileDatabase import *
+from Context import *
 
 def askMaisonOrAppartement():
     answer = False 
@@ -37,7 +38,19 @@ def askAchatOrLocation():
         
     return typeAchat
 
+def boot() -> Context :
+    context = Context()
+
+    context.register(LefigaroProvider())
+    context.register(Century21Provider())
+    #context.register(LeboncoinProvider())
+
+    return context
+
 def main():
+
+    context = boot()
+
     typeAchat = askAchatOrLocation()
     typeBien = askMaisonOrAppartement()
     codePostal = input("Code postal ?")
@@ -46,20 +59,9 @@ def main():
     budgetMax = input("Budget maximum ?")
     search = {"typeAchat": typeAchat, "typeBien": typeBien, "codePostal": codePostal, "ville": ville, "budgetMin": budgetMin, "budgetMax": budgetMax}
 
-
     fileDatabase = FileDatabase()
 
-    century21 = Century21Provider(search)
-    resultCentury21 = century21.getSearchResult()
-    fileDatabase.saveInFile(resultCentury21, "century21")
-
-    #fonctionne si on passe la détection en tant que robot
-    #lbc = LeboncoinProvider(search)
-    #resultLbc = lbc.getSearchResult()
-    #fileDatabase.saveInFile(resultLbc, "lbc")
-
-    lefigaro = LefigaroProvider(search)
-    resultLefigaro = lefigaro.getSearchResult()
-    fileDatabase.saveInFile(resultLefigaro, "lefigaro")
+    for site in context.getSites():
+        fileDatabase.saveInFile(site.getSearchResult(search), site.getFileName())
     
 main()

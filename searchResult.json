@@ -1,201 +1,28 @@
 {
-    "century21": [
-        {
-            "reference": "2665838875"
-        },
-        {
-            "reference": "2718469107"
-        },
-        {
-            "reference": "2751136817"
-        },
-        {
-            "reference": "2752704291"
-        },
-        {
-            "reference": "2456381630"
-        },
-        {
-            "reference": "2115349221"
-        },
-        {
-            "reference": "2740798236"
-        },
-        {
-            "reference": "2651536616"
-        },
-        {
-            "reference": "2460048359"
-        },
-        {
-            "reference": "2615259198"
-        },
-        {
-            "reference": "2232204109"
-        },
-        {
-            "reference": "2172460834"
-        },
-        {
-            "reference": "2590243864"
-        },
-        {
-            "reference": "2725519782"
-        },
-        {
-            "reference": "2652669830"
-        },
-        {
-            "reference": "2267943765"
-        },
-        {
-            "reference": "2384204184"
-        },
-        {
-            "reference": "2655773805"
-        },
-        {
-            "reference": "2734927220"
-        },
-        {
-            "reference": "2445199002"
-        },
-        {
-            "reference": "2307510464"
-        },
-        {
-            "reference": "2676890503"
-        },
-        {
-            "reference": "1929773572"
-        },
-        {
-            "reference": "2539025336"
-        },
-        {
-            "reference": "2710076336"
-        },
-        {
-            "reference": "2689305533"
-        },
-        {
-            "reference": "2666635390"
-        },
-        {
-            "reference": "2542118303"
-        },
-        {
-            "reference": "2530443751"
-        },
-        {
-            "reference": "2505006931"
-        }
-    ],
     "lefigaro": [
         {
-            "reference": "39202253"
+            "reference": "39268075"
         },
         {
-            "reference": "39166047"
+            "reference": "39267465"
         },
         {
-            "reference": "39166041"
+            "reference": "39266011"
         },
         {
-            "reference": "39038715"
+            "reference": "39260677"
         },
         {
-            "reference": "38837687"
+            "reference": "39263403"
         },
         {
-            "reference": "38837801"
+            "reference": "39263415"
         },
         {
-            "reference": "38358063"
+            "reference": "39263417"
         },
         {
-            "reference": "38146047"
-        },
-        {
-            "reference": "39202253"
-        },
-        {
-            "reference": "39202253"
-        },
-        {
-            "reference": "38082601"
-        },
-        {
-            "reference": "37511987"
-        },
-        {
-            "reference": "37856813"
-        },
-        {
-            "reference": "39166047"
-        },
-        {
-            "reference": "39166047"
-        },
-        {
-            "reference": "38477727"
-        },
-        {
-            "reference": "36674843"
-        },
-        {
-            "reference": "35764117"
-        },
-        {
-            "reference": "39166041"
-        },
-        {
-            "reference": "39166041"
-        },
-        {
-            "reference": "38360879"
-        },
-        {
-            "reference": "38335305"
-        },
-        {
-            "reference": "37866301"
-        },
-        {
-            "reference": "39038715"
-        },
-        {
-            "reference": "39038715"
-        },
-        {
-            "reference": "39202253"
-        },
-        {
-            "reference": "23328563"
-        },
-        {
-            "reference": "33479989"
-        },
-        {
-            "reference": "38837687"
-        },
-        {
-            "reference": "38837687"
-        },
-        {
-            "reference": "23390605"
-        },
-        {
-            "reference": "39120217"
-        },
-        {
-            "reference": "38718961"
-        },
-        {
-            "reference": "37426605"
-        },
-        {
-            "reference": "37105025"
+            "reference": "39260147"
         },
         {
             "reference": "39244277"
@@ -255,40 +82,78 @@
             "reference": "39166051"
         },
         {
-            "reference": "39178817"
-        },
-        {
             "reference": "39134153"
         },
         {
             "reference": "39133741"
         },
         {
-            "reference": "39178799"
-        },
-        {
-            "reference": "39174503"
-        },
-        {
-            "reference": "39117795"
-        },
-        {
             "reference": "39107985"
         },
         {
-            "reference": "39107099"
+            "reference": "39174503"
+        }
+    ],
+    "century21": [
+        {
+            "reference": "2652669830"
         },
         {
-            "reference": "39083289"
+            "reference": "2456381630"
         },
         {
-            "reference": "39038711"
+            "reference": "2307510464"
         },
         {
-            "reference": "39005145"
+            "reference": "2744721499"
         },
         {
-            "reference": "39005123"
+            "reference": "2740798236"
+        },
+        {
+            "reference": "2752704291"
+        },
+        {
+            "reference": "2725519782"
+        },
+        {
+            "reference": "2590243864"
+        },
+        {
+            "reference": "2172460834"
+        },
+        {
+            "reference": "2115349221"
+        },
+        {
+            "reference": "2651536616"
+        },
+        {
+            "reference": "2615259198"
+        },
+        {
+            "reference": "2232204109"
+        },
+        {
+            "reference": "2228579570"
+        },
+        {
+            "reference": "2267943765"
+        },
+        {
+            "reference": "2384204184"
+        },
+        {
+            "reference": "2655773805"
+        },
+        {
+            "reference": "2734927220"
+        },
+        {
+            "reference": "2445199002"
+        },
+        {
+            "reference": "2653626645"
         }
     ]
 }

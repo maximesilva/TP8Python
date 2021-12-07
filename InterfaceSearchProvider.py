@@ -1,11 +1,11 @@
 from abc import ABC, abstractmethod
 
 class InterfaceSearchProvider(ABC):
-    @abstractmethod
-    def __init__(self, search):
-        
-        self.search = search 
 
     @abstractmethod
-    def getSearchResult(self):
+    def getSearchResult(self, search):
+        pass
+
+    @abstractmethod
+    def getFileName(self):
         pass
