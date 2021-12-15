@@ -62,6 +62,11 @@ def main():
     fileDatabase = FileDatabase()
 
     for site in context.getSites():
-        fileDatabase.saveInFile(site.getSearchResult(search), site.getFileName())
-    
+        results = site.getSearchResult(search)
+        fileDatabase.saveInFile(results, site.getFileName())
+        print("Voici le résultat de votre recherche sur "+ site.getFileName() + ": ")
+        for result in results:
+            for information in results[result]:
+                print(information)
+        
 main()

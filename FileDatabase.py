@@ -27,7 +27,6 @@ class FileDatabase():
                         if presente == False :
                             data[providerName].append(newSearch)
                 else:
-                    print(newSearchResult)
                     data[list(newSearchResult)[0]] = newSearchResult[providerName]
 
             os.remove(self.fileName)

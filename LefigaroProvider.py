@@ -15,7 +15,6 @@ class LefigaroProvider(InterfaceSearchProvider):
         
         url = self.entrypoint + search["ville"] + "+" + search["codePostal"] + ".html?priceMax=" + search["budgetMax"] + "&priceMin=" + search["budgetMin"]
         result = requests.get(url)
-        print(url)
         bs = BeautifulSoup(result.content, 'html.parser')
         allAnnonces = bs.find_all('div', {'data-e2e': 'bloc-list-item'})
         
@@ -24,10 +23,15 @@ class LefigaroProvider(InterfaceSearchProvider):
 
         for annonce in allAnnonces:
             annonce = str(annonce)
-            parsed = parse('<div{}id="list-item-{}"{}', annonce)
-            uriAnnonce = parsed[1]
-            resultSearch["lefigaro"].append({"reference" : uriAnnonce})
+            parsedRef = parse('<div{}id="list-item-{}"{}', annonce)
+            uriAnnonce = parsedRef[1]
+            parsedPrice = parse('{}<span>{}€</span>{}', annonce)
+            parsedInformations = parse('{}<a {} href={} title="{}"{}', annonce)
+            price = parsedPrice[1]
+            informations = parsedInformations[3]
 
+            resultSearch["lefigaro"].append({"reference" : uriAnnonce, "prix" : price, "informations" : informations})
+            
         return resultSearch
     
     def getFileName(self) -> str:
